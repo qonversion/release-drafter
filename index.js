@@ -181,6 +181,7 @@ module.exports = (app, { getRouter }) => {
       name,
       isPreRelease,
       shouldDraft,
+      context,
     })
 
     let createOrUpdateReleaseResponse
